@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'poppins', sans-serif;
+    background: rgb(185, 255, 185);
+    color: black;
+    line-height: 1.7;
+    overflow-x:hidden;
+}
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* header & nav */
+header{
+    background:  rgb(207, 255, 207);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    padding: 10px 0;
+    transition: all 0,4s ease;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+}
+
+.logo-text{
+    font-family: 'poppins', sans-serif;
+    font-size: 28px;
+    font-weight: 900;
+    color: black;
+    letter-spacing: 1px;
+}
+
+.logo-text span{
+    color:blueviolet;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap:35px;
+}
+
+nav a{
+    text-decoration: none;
+    color:blueviolet;
+    font-weight: 600;
+    font-size:16px;
+    position: relative;
+    padding: 5px 0;
+    transition: all 0.3s ease;
+}
+
+nav a:after{
+    content:'';
+    position: absolute;
+    bottom:0;
+    left: 0;
+    width:0;
+    height: 2px;
+    background:rgb(48, 255, 245);
+    transition: width 0.3s ease;
+}
+
+nav a:hover:after{
+    width: 100%;
+}
+
+.nav-buttons{
+    display: flex;
+    gap: 15px;
+}
+
+.btn{
+    display: inline-block;
+    padding: 8px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+}
+
+.btn-primary{
+    background:rgb(0, 255, 242);
+    color: blueviolet;
+}
+
+.btn-primary:hover {
+    background: rgb(6, 203, 230);
+    transform: translateY(-3px);
+}
+
+.btn-secondary{
+    background: transparent;
+    color: blueviolet;
+    border: 2px solid blueviolet;
+}
+
+.btn-secondary:hover{
+    background: rgb(182, 112, 248);
+    transform: translateY(-3px);
+}
+
+/* hero section */
+.hero{
+    height:100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    padding-top: 80px;
+}
+
+.hero::before{
+    content: '';
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgb(192, 250, 221) 0%, rgb(1, 255, 22) 50%);
+    z-index: -1;
+}
+
+.hero-content{
+    width:750px;
+    color:rgb(0, 0, 0);
+    animation: fadeInUp 1s ease-out;
+}
+
+.hero .container{
+    display: flex;
+}
+
+.hero-subtitle{
+    font-size: 20px;
+    color:blueviolet;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.hero-subtitle::before{
+    content: '';
+    width: 50px;
+    height:2px;
+    background: blueviolet;
+}
+
+.hero-title{
+    font-size: 58px;
+    line-height: 1.1;
+    margin-bottom: 25px;
+    letter-spacing: 0.5px;
+    color:rgb(0, 0, 0);
+}
+
+.hero-title span{
+    color: blueviolet;
+    position: relative;
+}
+
+.hero-text{
+    font-size: 26px;
+    margin-bottom: 120px;
+    max-width: 700 px;
+}
+
+.hero-buttons{
+    display: flex;
+    gap:20px;
+    margin-top: 30px;
+}
+
+.products {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.menu-header {
+  display: inline-flex;          
+  align-items: center;          
+  justify-content: center;
+  gap: 10px;                     
+  margin-bottom: 20px;
+}
+
+.menu-header i {
+  color: #b851e7;               
+  font-size: 1.8em;
+}
+
+.menu-header h1 {
+  font-size: 2em;
+  margin: 0;
+  color: #000000;
+}
+
+#boba-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.boba-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 250px;
+  padding: 15px;
+  text-align: left;
+  transition: transform 0.2s ease;
+}
+
+.boba-card:hover {
+  transform: scale(1.05);
+}
+
+.boba-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.boba-card h2 {
+  font-size: 1.2em;
+  margin: 10px 0 5px;
+}
+
+.boba-card p {
+  font-size: 0.9em;
+  color: black;
+}
+
+.price {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: blueviolet;
+}
