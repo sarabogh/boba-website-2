@@ -3,25 +3,25 @@
     {
       "name": "Classic Milk Tea",
       "description": "A smooth blend of black tea, creamy milk, and chewy tapioca pearls. The timeless favorite for boba lovers.",
-      "image": "black.png",
+      "image": "black.PNG",
       "price": 5.50
     },
     {
       "name": "Taro Milk Tea",
       "description": "Made with sweet taro root and milk, this pastel purple drink is creamy, nutty, and slightly earthy.",
-      "image": "taro.png",
+      "image": "taro.PNG",
       "price": 5.75
     },
     {
       "name": "Matcha Green Tea Latte with Boba",
       "description": "A rich Japanese matcha green tea with smooth milk and chewy tapioca pearls for a refreshing twist.",
-      "image": "matcha.png",
+      "image": "matcha.PNG",
       "price": 6.00
     },
     {
       "name": "Brown Sugar Boba Milk",
       "description": "Fresh milk swirled with brown sugar syrup and caramelized tapioca pearls. Sweet, creamy, and Insta-worthy.",
-      "image": "brown-sugar.png",
+      "image": "brown-sugar.PNG",
       "price": 6.25
     },
     {
@@ -33,31 +33,31 @@
     {
       "name": "Honeydew Milk Tea",
       "description": "A sweet and refreshing honeydew-flavored tea blended with milk for a fruity and creamy taste.",
-      "image": "honeydew.png",
+      "image": "honeydew.PNG",
       "price": 5.65
     },
     {
       "name": "Strawberry Fruit Tea with Popping Boba",
       "description": "A vibrant, caffeine-free fruit tea with real strawberry puree and popping boba for a juicy finish.",
-      "image": "strawberry.png",
+      "image": "strawberry.PNG",
       "price": 5.25
     },
     {
       "name": "Oolong Milk Tea",
       "description": "Smooth oolong tea with a floral aroma, perfectly balanced with milk and chewy tapioca pearls.",
-      "image": "oolong.png",
+      "image": "oolong.PNG",
       "price": 5.80
     },
     {
       "name": "Lemon Green Tea",
       "description": "A bright and tangy mix of green tea and fresh lemon juice, perfect for a refreshing citrus kick.",
-      "image": "lemon.png",
+      "image": "lemon.PNG",
       "price": 5.45
     },
     {
       "name": "Lychee Fruit Tea",
       "description": "A sweet and floral fruit tea infused with juicy lychee flavor and served with lychee jelly or popping pearls.",
-      "image": "lyche.png",
+      "image": "lyche.PNG",
       "price": 5.55
     }
   ]
